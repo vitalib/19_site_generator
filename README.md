@@ -1,6 +1,13 @@
-# Encyclopedia
+# Encyclopedia 
+Script creates static documentation site from markdown files, utilizing config.json file that contains description of documentation (names of articles, topics, pathes to articles).
 
-[TODO. There will be project description]
+# Quick Start
+Script should be run by Python3.5.
+Example of run on linux
+
+```bash
+python3 site_generator.py
+```
 
 # Project Goals
 
