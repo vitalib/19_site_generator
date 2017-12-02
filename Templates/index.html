@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content -%}
+{% for topic in site_config.topics -%}
+  <h2> {{topic.title}} </h2>
+    <ul>
+  {% for article in site_config.articles -%}
+    {% if topic.slug == article.topic -%}
+      <li><a href="{{ article.path_to_html }}">{{ article.title }}</a></li>
+     {% endif -%}
+   {% endfor -%}
+    </ul>
+{% endfor -%}
+{% endblock -%}
