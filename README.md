@@ -1,6 +1,6 @@
 # Encyclopedia 
 Script creates static documentation site from markdown files, utilizing config.json file that contains description of documentation (names of articles, topics, pathes to articles).
-
+URL of generated site - https://vitalib.github.io/ 
 # Quick Start
 Script should be run by Python3.5.
 Example of run on linux
